@@ -1,0 +1,51 @@
+.hobby {
+    background: url(/img/2070f812d6a581d5782c2df2f13165e8.gif) no-repeat center center/cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.cricle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s ease-in-out;
+    position: relative;
+}
+
+.cricle:hover {
+    width: 800px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.cricle-1 {
+    border-radius: 10px;
+    background: #202020;
+    width: 200px;
+    height: 200px;
+}
+
+.cricle-2 {
+    background: #202020;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.cricle-3 {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 120px 160px 120px;
+    border-color: transparent transparent #202020 transparent;
+}
+
+.cricle-3:hover {
+    background: #202020;
+    border: solid 1px #202020;
+}

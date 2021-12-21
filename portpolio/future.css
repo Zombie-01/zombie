@@ -1,0 +1,47 @@
+.future {
+    background: url(/img/ZaR53W.jpg) no-repeat center center/cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap {
+    position: relative;
+    background: #202020;
+    border-radius: 20px;
+    width: 510px;
+    height: 310px;
+    transition: 0.5s;
+}
+
+.future .wrap .gif {
+    background: url(/img/d3a42f716849f0c6fab4d6bb237f51db.gif) no-repeat center center/cover;
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    left: 5px;
+    top: 5px;
+}
+
+.wrap .text {
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    margin: 15px;
+    font-family: 'Permanent Marker', cursive;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.6s;
+}
+
+.wrap:hover {
+    height: 450px;
+}
+
+.wrap:hover .text {
+    opacity: 1;
+    visibility: visible;
+}

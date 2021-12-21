@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b33361bb7d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen and (max-width: 568px)" href="/mobile.css">
+    <link rel="stylesheet" href="/welcome.css">
+    <link rel="stylesheet" media="screen and (max-height: 400px)" href="/horiznotal-mobile.css">
+    <title>Welcome</title>
+</head>
+
+<body>
+    <header>
+        <a href="/index.html">
+            <h2>Zombie</h2>
+        </a>
+        <ul class="nav">
+            <a href="/welcome.html">
+                <li>Welcome</li>
+            </a>
+            <a href="/about-me.html">
+                <li>About me</li>
+            </a>
+            <a href="/future.html">
+                <li>Future</li>
+            </a>
+            <a href="/hobby.html">
+                <li>Hobby</li>
+            </a>
+            <a href="/contact.html">
+                <li>Contact</li>
+            </a>
+        </ul>
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;  </span>
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="/welcome.html">
+                    <li>Welcome</li>
+                </a>
+                <a href="/about-me.html">
+                    <li>About me</li>
+                </a>
+                <a href="/future.html">
+                    <li>Future</li>
+                </a>
+                <a href="/hobby.html">
+                    <li>Hobby</li>
+                </a>
+                <a href="/contact.html">
+                    <li>Contact</li>
+                </a>
+            </div>
+        </div>
+    </header>
+    <div class="welcome">
+        <div class="clouds"></div>
+        <div class="wrap">
+            <div class="title">
+                <div class="imgs">
+                    <div class="img">
+                        <div></div>
+                    </div>
+                </div>
+                <div class="text">
+                    <h2>Hello dear</h2>
+                    <p>Welcome to my portfolio website</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Lorem ipsum dolor sit.</p>
+                </div>
+                <div class="lorem">
+                    <h2>Lorem</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus autem sed nesciunt tempora iusto impedit ducimus pariatur accusantium harum neque.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <ul>
+            <a href="https://www.facebook.com/adya.art.1/">
+                <li><i class="fab fa-facebook-square fa-lg"></i></li>
+            </a>
+            <a href="https://www.instagram.com/adiaadorj.b/">
+                <li>
+                    <i class="fab fa-instagram-square fa-lg"></i>
+                </li>
+            </a>
+            <a href="https://twitter.com/">
+                <li>
+                    <i class="fab fa-twitter-square fa-lg"></i>
+                </li>
+            </a>
+            <a href="/contact.html">
+                <li>
+                    <i class="fas fa-id-badge fa-lg"></i>
+                </li>
+            </a>
+        </ul>
+        <p>2020 он</p>
+    </footer>
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
+</body>
+
+</html>

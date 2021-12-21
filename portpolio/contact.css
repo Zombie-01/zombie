@@ -1,0 +1,35 @@
+.contact {
+    background: url(/img/final-render.gif) no-repeat center center/cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap {
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+    background: #202020;
+    transition: 0.3s;
+}
+
+.wrap:hover {
+    width: 600px;
+}
+
+.text {
+    margin: 10px;
+}
+
+.wrap h2 {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+}
+
+.wrap .text ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}

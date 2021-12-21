@@ -1,0 +1,239 @@
+header .nav {
+    display: none;
+}
+
+#myNav {
+    display: block;
+}
+
+header span {
+    display: block;
+}
+
+.block {
+    width: 80vw;
+    height: 50vh;
+    margin: 10px 120px 20px 20px;
+}
+
+.container {
+    margin-top: 150px;
+    margin-left: 0px;
+}
+
+body {
+    font-family: 'Permanent Marker', cursive;
+}
+
+.overlay {
+    height: 100%;
+    width: 100vw;
+    position: fixed;
+    z-index: 7;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+
+/* @media screen and (max-height: 450px) {
+    .overlay a {
+        font-size: 20px
+    }
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+} */
+
+.wrap .title {
+    width: 80vw !important;
+    height: 25vh !important;
+}
+
+.wrap .title:hover {
+    height: 40vh !important;
+}
+
+.wrap .title .imgs {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrap .title .text {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    margin: 5px;
+}
+
+.wrap .title .text {
+    font-size: 10px !important;
+    width: 40vw !important;
+}
+
+.wrap .title .text p {
+    font-size: 8px !important;
+    margin-top: 8px !important;
+}
+
+.wrap .title .lorem {
+    font-size: 10px !important;
+    padding: 10px !important;
+}
+
+.wrap .title .imgs .img {
+    width: 30vw !important;
+    height: 20vh!important;
+}
+
+
+/*  */
+
+.about {
+    gap: 0.5rem;
+}
+
+.about .cricle {
+    width: 30vw;
+    height: 15vh;
+}
+
+.about .cricle:hover .cricle-img {
+    top: 60px;
+    transform: scale(1.3);
+}
+
+.about .cricle .cricle-img {
+    width: 100px;
+    height: 100px;
+    background: url(/img/70872339_1004374349906428_3589088252671295488_n.jpg) no-repeat center center/cover;
+    top: 10px;
+}
+
+.about .cricle .text {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    position: absolute;
+    bottom: 50px;
+}
+
+.about:nth-last-child() .text h2 {
+    font-size: 10px !important;
+}
+
+.about:nth-last-child() .text p {
+    font-size: 14px !important;
+}
+
+
+/*  */
+
+.wrap {
+    width: 90vw;
+    height: 38.5vh;
+}
+
+.future .wrap .gif {
+    width: 96%;
+}
+
+.wrap:hover {
+    height: 500px;
+}
+
+
+/*  */
+
+.cricle:hover {
+    width: 60vw;
+    height: 80vh;
+    border-radius: 20px;
+}
+
+.cricle-1 {
+    border-radius: 10px;
+    background: #202020;
+    width: 20vw;
+    height: 15vh;
+}
+
+.cricle-2 {
+    background: #202020;
+    width: 20vw;
+    height: 15vh;
+    border-radius: 50%;
+}
+
+.cricle-3 {
+    display: none;
+}
+
+.cricle-3:hover {
+    background: #202020;
+    border: solid 1px #202020;
+}
+
+
+/* 
+ */
+
+.wrap {
+    width: 70vw;
+    height: 60vh;
+    border-radius: 20px;
+    background: #202020;
+    transition: 0.3s;
+}
+
+.wrap:hover {
+    width: 600px;
+}
+
+.text {
+    margin: 10px;
+}
+
+.wrap h2 {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+}
+
+.wrap .text ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b33361bb7d.js" crossorigin="anonymous"></script>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="/tablet.css">
+    <link rel="stylesheet" media="screen and (max-width: 568px)" href="/mobile.css">
+    <link rel="stylesheet" media="screen and (max-height: 400px)" href="/horiznotal-mobile.css">
+</head>
+
+<body>
+    <header>
+        <a href="#">
+            <h2>Zombie</h2>
+        </a>
+        <ul class="nav">
+            <a href="/welcome.html">
+                <li>Welcome</li>
+            </a>
+            <a href="/about-me.html">
+                <li>About me</li>
+            </a>
+            <a href="/future.html">
+                <li>Future</li>
+            </a>
+            <a href="/hobby.html">
+                <li>Hobby</li>
+            </a>
+            <a href="/contact.html">
+                <li>Contact</li>
+            </a>
+        </ul>
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;  </span>
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="/welcome.html">
+                    <li>Welcome</li>
+                </a>
+                <a href="/about-me.html">
+                    <li>About me</li>
+                </a>
+                <a href="/future.html">
+                    <li>Future</li>
+                </a>
+                <a href="/hobby.html">
+                    <li>Hobby</li>
+                </a>
+                <a href="/contact.html">
+                    <li>Contact</li>
+                </a>
+            </div>
+        </div>
+
+    </header>
+
+    <div class="container">
+        <a class="block block-1" href="/welcome.html">
+            <h1>Welcome.</h1>
+        </a>
+        <a class="block block-2" href="/about-me.html">
+            <h1>About me.</h1>
+        </a>
+        <a class="block block-3 " href="/future.html">
+            <h1>Future.</h1>
+        </a>
+        <a class="block block-4" href="/hobby.html">
+            <h1>Hobby.</h1>
+        </a>
+        <a class="block block-5" href="/contact.html">
+            <h1>Contact.</h1>
+        </a>
+    </div>
+    <footer>
+        <ul>
+            <a href="https://www.facebook.com/adya.art.1/">
+                <li><i class="fab fa-facebook-square fa-lg"></i></li>
+            </a>
+            <a href="https://www.instagram.com/adiaadorj.b/">
+                <li>
+                    <i class="fab fa-instagram-square fa-lg"></i>
+                </li>
+            </a>
+            <a href="https://twitter.com/">
+                <li>
+                    <i class="fab fa-twitter-square fa-lg"></i>
+                </li>
+            </a>
+            <a href="/contact.html">
+                <li>
+                    <i class="fas fa-id-badge fa-lg"></i>
+                </li>
+            </a>
+        </ul>
+        <p>2020 он</p>
+    </footer>
+
+    <script src="index.js"></script>
+    <script>
+        var blocks = document.getElementsByClassName("block");
+        var container = document.getElementsByClassName("container");
+        var hs = new HorizontalScroll.default({
+            blocks: blocks,
+            container: container,
+            isAnimated: true,
+            springEffect: 0.8,
+        });
+    </script>
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
+</body>
+
+</html>

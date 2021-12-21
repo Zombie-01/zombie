@@ -1,0 +1,136 @@
+.block {
+    width: 40vw;
+    height: 50vh;
+    margin: 45px 120px 20px 20px;
+}
+
+.container {
+    margin-top: 45px;
+    margin-left: 0px;
+}
+
+
+/* 
+footer {
+    display: none;
+} */
+
+.wrap .title {
+    width: 80vw !important;
+    height: 45vh !important;
+}
+
+.wrap .title:hover {
+    height: 58vh !important;
+}
+
+.wrap .title .imgs {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrap .title .text {
+    font-size: 14px !important;
+    width: 60vw !important;
+}
+
+.wrap .title .text p {
+    font-size: 10px !important;
+    margin-top: 10px !important;
+}
+
+.wrap .title .lorem {
+    font-size: 10px !important;
+    padding: 10px !important;
+}
+
+.wrap .title .imgs .img {
+    width: 30vw !important;
+    height: 30vh!important;
+}
+
+
+/*  */
+
+.about {
+    gap: 0.5rem;
+}
+
+.about .cricle {
+    width: 20vw;
+    height: 35vh;
+}
+
+.about .cricle:hover {
+    width: 60vw;
+    height: 50vh;
+    border-radius: 20px;
+}
+
+.about .cricle:hover .cricle-img {
+    display: none;
+}
+
+.about .cricle .cricle-img {
+    width: 100px;
+    height: 100px;
+    top: 13px;
+}
+
+.about .cricle .text {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    position: absolute;
+    bottom: 30px;
+}
+
+.about:nth-last-child() .text h2 {
+    font-size: 10px !important;
+}
+
+.about:nth-last-child() .text p {
+    font-size: 14px !important;
+}
+
+.text-ab {
+    bottom: 60px !important;
+    font-size: 10px !important;
+}
+
+.wrap {
+    width: 76vw !important;
+    height: 50vh !important;
+}
+
+.future .wrap .gif {
+    width: 98%;
+    height: 96%;
+}
+
+.wrap:hover {
+    color: #202020;
+}
+
+.wrap {
+    width: 75vw;
+    height: 50vh !important;
+}
+
+.wrap:hover {
+    display: none;
+}
+
+.text {
+    margin: 10px;
+}
+
+.wrap h2 {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+}
+
+.wrap .text ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem !important;
+}
